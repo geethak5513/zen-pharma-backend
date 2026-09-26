@@ -1,0 +1,34 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ECRAuthToken",
+      "Effect": "Allow",
+      "Action": [
+        "ecr:GetAuthorizationToken"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "PushBackendImages",
+      "Effect": "Allow",
+      "Action": [
+        "ecr:BatchCheckLayerAvailability",
+        "ecr:CompleteLayerUpload",
+        "ecr:InitiateLayerUpload",
+        "ecr:PutImage",
+        "ecr:UploadLayerPart"
+      ],
+      "Resource": [
+        "arn:aws:ecr:us-east-1:760396521684:repository/auth-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/api-gateway",
+        "arn:aws:ecr:us-east-1:760396521684:repository/drug-catalog-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/inventory-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/supplier-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/manufacturing-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/notification-service",
+        "arn:aws:ecr:us-east-1:760396521684:repository/qc-service"
+      ]
+    }
+  ]
+}

@@ -14,8 +14,8 @@
         },
         "StringLike": {
           "token.actions.githubusercontent.com:sub": [
-            "repo:geethak5513/zen-pharma-backend:ref:refs/heads/develop",
-            "repo:geethak5513/zen-pharma-backend:ref:refs/heads/release/*"
+            "repo:geethak5513@41056499/zen-pharma-backend@1389434853:ref:refs/heads/develop",
+            "repo:geethak5513@41056499/zen-pharma-backend@1389434853:ref:refs/heads/release/*"
           ]
         }
       }

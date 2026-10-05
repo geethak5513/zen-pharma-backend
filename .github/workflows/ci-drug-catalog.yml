@@ -1,3 +1,4 @@
+# Initial catalogue deployment to our DEV cluster.
 name: CI/CD — drug-catalog-service
 
 # Triggers on push to develop / release branches only.

@@ -1,3 +1,4 @@
+# Initial inventory deployment to our DEV cluster.
 name: CI/CD — inventory-service
 
 # Triggers on push to develop / release branches only.

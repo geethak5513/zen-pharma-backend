@@ -1,3 +1,4 @@
+# Build supplier-service for the lab.
 name: CI/CD — supplier-service
 
 # Triggers on push to develop / release branches only.

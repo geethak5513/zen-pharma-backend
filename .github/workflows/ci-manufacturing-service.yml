@@ -1,3 +1,4 @@
+# Trigger manufacturing-service lab build.
 name: CI/CD — manufacturing-service
 
 # Triggers on push to develop / release branches only.

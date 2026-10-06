@@ -1,3 +1,4 @@
+# Trigger notification-service lab build.
 name: CI/CD — notification-service
 
 # Triggers on push to develop / release branches only.
